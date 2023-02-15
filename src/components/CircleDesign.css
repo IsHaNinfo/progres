@@ -1,0 +1,33 @@
+:root {
+  --color1: #12c2e9;
+  --color: #c471ed;
+  --color: #f64f59;
+}
+svg {
+  width: 20.5vw;
+}
+
+.circle-background {
+  fill: none;
+  stroke: rgb(226, 226, 226);
+}
+
+.circle-progress {
+  fill: none;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pro {
+  position: relative;
+  margin-left: 0%;
+  margin-top: 10%;
+}
+
+.circle-text {
+  font-size: 3rem;
+  text-anchor: middle;
+  fill: var(--color1);
+  font-family: "Righteous", cursive;
+}
